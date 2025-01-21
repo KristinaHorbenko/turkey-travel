@@ -1,0 +1,82 @@
+.fifth-section
+    height: 100vh
+    height: 160rem
+    background-image: url(../img/schedule-section.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and (max-width: $bp-tablet)
+        height: 125rem
+    &__container
+        display: flex
+        justify-content: center
+        align-items: center
+        padding-top: 14rem
+    &__border
+        width: 112.2rem
+        height: 132.8rem
+        border: 3px solid $color-white
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        @media screen and (max-width: $bp-desktop)
+            width: 90rem
+        @media screen and (max-width: $bp-big-tablet)
+            width: 80rem
+        @media screen and (max-width: $bp-tablet)
+            width: 0
+            height: auto
+            border: none
+    &__turkey-destinations
+        width: 82rem
+        text-align: center
+        color: $color-white
+        line-height: 110%
+        letter-spacing: 0.05em
+        margin-bottom: 4rem
+        @media screen and (max-width: $bp-big-tablet)
+            width: 70rem
+        @media screen and (max-width: $bp-tablet)
+            width: 44rem
+            font-size: 1.4rem
+    &__box-date
+        display: flex
+        gap: 4rem
+        @media screen and (max-width: $bp-tablet)
+            display: flex
+            flex-direction: column
+    &__title
+        width: 18.6rem
+        @media screen and (max-width: $bp-tablet)
+            width: auto
+
+
+.date-card
+    display: flex
+    align-items: center
+    gap: 1rem
+    &__day
+        font-family: 'Raleway-Bold', sans-serif
+        font-weight: 700
+        font-size: 6.4rem
+        line-height: 1.25
+        color: $color-white
+        @media screen and (max-width: $bp-big-tablet)
+            font-size: 6rem
+    &__month
+        font-family: 'Raleway-Regular', sans-serif
+        font-weight: 400
+        font-size: 2.4rem
+        line-height: 1
+        color: $color-white
+        @media screen and (max-width: $bp-big-tablet)
+            font-size: 2rem
+    &__event
+        font-family: 'Raleway-Bold', sans-serif
+        font-weight: 700
+        font-size: 2.4rem
+        line-height: 1.25
+        color: $color-white
+        white-space: nowrap
+        @media screen and (max-width: $bp-big-tablet)
+            font-size: 2rem

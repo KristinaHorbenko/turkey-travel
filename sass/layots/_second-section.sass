@@ -1,0 +1,77 @@
+.second-section
+    &__box
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media screen and (max-width: $bp-tablet)
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+.left-wrapper
+    @media screen and (max-width: $bp-tablet)
+        margin-bottom: 8rem
+    &__box-text
+        @media screen and (max-width: $bp-big-tablet)
+            padding-left:  8rem
+        p
+            margin-top: -50rem
+            @media screen and (max-width: $bp-desktop)
+                margin-top: -36rem
+            @media screen and (max-width: $bp-tablet)
+                margin-top: -34rem
+            @media screen and (max-width: $bp-small-tablet)
+                margin-top: -32rem
+                margin-left: -5rem
+            @media screen and (max-width: $bp-mobile)
+                margin-top: -31rem
+        h2
+            @media screen and (max-width: $bp-small-tablet)
+                margin-left: -5rem 
+    &__map
+        max-width: 74rem
+        height: auto
+        margin-left: -4rem
+        @media screen and (max-width: $bp-desktop)
+            max-width: 70rem
+            height: 40rem
+        @media screen and (max-width: $bp-tablet)
+            width: 52rem
+            height: auto
+        @media screen and (max-width: $bp-small-tablet)
+            width: 48rem
+        @media screen and (max-width: $bp-mobile)
+            width: 45rem
+    &__description
+        width: 60.2rem
+        padding-top: 8rem
+        padding-left:  12rem
+        @media screen and (max-width: $bp-desktop)
+            width: 46rem
+            font-size: 1.6rem
+            padding-top: 5rem
+            padding-left:  4rem
+        @media screen and (max-width: $bp-big-tablet)
+            width: 50rem
+            font-size: 1.4rem
+            padding-top: 6rem
+            padding-left:  9rem
+        @media screen and (max-width: $bp-small-tablet)
+            padding-top: 5rem
+            padding-left:  11rem
+        @media screen and (max-width: $bp-mobile)
+            width: 40rem
+
+.right-wrapper
+    width: 40%
+    @media screen and (max-width: $bp-tablet)
+        display: none
+    img
+        max-width: 52.7rem
+        height: 58rem
+        @media screen and (max-width: $bp-desktop)
+            max-width: 45rem
+            height: 46rem
+        @media screen and (max-width: $bp-big-tablet)
+            max-width: 40rem
